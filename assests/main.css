@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+    
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.head, .links {
+  text-align: center;
+}
+img {
+  width: 120px;
+  height: 130px;
+  border-radius: 50%;
+}
+.profile-image {
+  margin-top: -45%;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 5%;
+}
+.content {
+  padding: 2% 2%;
+}
+body {
+  background: url('https://i.imgur.com/346dhno.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .3);
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 0%, .90) 10px 10px 80px;
+}
+img {
+  padding: 1px;
+  background-color: #666;
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+h1, h2, p {
+    color: white;
+    
+}
+.fb {
+    color: darkblue;
+    font-size: 25px;
+}
+.insta {
+    color: crimson;
+    font-size: 25px
+}
